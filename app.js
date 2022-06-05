@@ -53,12 +53,8 @@ app.post("/compose", function(request, response){
 
   posts.push(composeObject);
 
-  //console.log(posts);
-
   response.redirect("/");
 
-  // composeObject.title = request.body.postTitle;
-  // composeObject.body = request.body.postBody;
 });
 
 
